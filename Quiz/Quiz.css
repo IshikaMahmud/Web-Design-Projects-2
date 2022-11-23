@@ -1,0 +1,266 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  background-color: #f1eaea;
+}
+
+/* real */
+
+.quizApp {
+  width: 319px;
+  height: 579px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  box-shadow: 0 9px 49px rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%);
+  border-radius: 47px;
+}
+
+.img img {
+  width: 100%;
+  border-radius: 47px;
+}
+
+.text1 {
+  width: 90%;
+  margin: auto;
+}
+
+.text1 h3 {
+  margin-top: 19px;
+}
+
+.button button {
+  font-size: 19px;
+  font-weight: 700;
+  background-color: dodgerblue;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 5px 24px;
+  cursor: pointer;
+  border-radius: 56px 0 50px 0;
+  transition: 0.3s ease-in-out;
+}
+
+.button button:hover {
+  background-color: lime;
+}
+
+.button {
+  width: 60%;
+  margin-top: 12px;
+  margin-left: 212px !important;
+}
+
+/* Rule */
+
+.Rule {
+  width: 319px;
+  height: 579px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  box-shadow: 0 9px 49px rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%);
+  border-radius: 47px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Rule .activeInfo {
+  opacity: 1;
+  z-index: 5;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.Rule-lists {
+  width: 80%;
+  margin: auto;
+}
+
+.Rule-title {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+  border-bottom: 1px solid rgb(161, 158, 158);
+  padding: 6px;
+}
+
+ol li {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 9px 24px;
+}
+
+.buttons button {
+  font-size: 19px;
+  font-weight: 700;
+  background-color: dodgerblue;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 5px 24px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin-top: 220px;
+}
+
+.exitBtn {
+  border-radius: 0 46px 0 45px;
+}
+
+.exitBtn:hover {
+  background-color: lime;
+}
+
+.cont-btn {
+  border-radius: 56px 0 45px 0;
+  margin-left: 112px;
+}
+
+.cont-btn:hover {
+  background-color: lime;
+}
+
+/* questions */
+
+/* .questions {
+  width: 319px;
+  height: 579px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  box-shadow: 0 9px 49px rgba(0, 0, 0, 0.2);
+  transform: translate(-50%, -50%);
+  border-radius: 47px;
+}
+
+.ques-header {
+  position: relative;
+  z-index: 2;
+  height: 71px;
+  padding: 0 29px;
+  border-radius: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ques-header .title {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.time-count {
+  color: #054283;
+  background: #c1dbf8;
+  border: 1px solid #aed2f8;
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 119px;
+}
+
+.time-seconds {
+  font-size: 17px;
+  font-weight: 600;
+  height: 25px;
+  width: 44px;
+  color: #fff;
+  border-radius: 4px;
+  line-height: 25px;
+  text-align: center;
+  background: #2f353b;
+  border: 1px solid #2f353b;
+  user-select: none;
+}
+
+.time-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background: #0478f5;
+}
+
+.section {
+  padding: 24px 29px 19px 29px;
+  background: #fff;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.options {
+  padding: 19px 0;
+  display: block;
+}
+
+.option {
+  background-color: aliceblue;
+  border: 1px solid #7cbffa;
+  border-radius: 4px;
+  padding: 7px 14px;
+  font-size: 16px;
+  margin-bottom: 11px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.option:hover {
+  color: #054283;
+  background: #c1dbf8;
+  border: 1px solid #aed2f8;
+}
+
+footer {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgb(161, 158, 158);
+}
+
+.all-ques {
+  padding-bottom: 9px;
+  padding-left: 29px;
+  margin-top: 36px;
+}
+
+footer button {
+  font-size: 19px;
+  font-weight: 700;
+  padding: 5px 24px;
+  outline: none;
+  border: none;
+  border-radius: 56px 0 50px 0;
+  box-shadow: 0 9px 49px rgba(0, 0, 0, 0.2);
+  background: dodgerblue;
+  cursor: pointer;
+  color: #f1e9e9;
+  transition: all 0.4s ease;
+  margin-top: 42px;
+}
+
+footer .next-btn:hover {
+  background-color: lime;
+} */

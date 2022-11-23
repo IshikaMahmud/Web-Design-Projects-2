@@ -1,0 +1,97 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+.card {
+  background-color: dodgerblue;
+  color: white;
+  padding: 1rem;
+  min-height: 79vh;
+  width: 49%;
+  overflow: scroll;
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  width: 79%;
+}
+
+.btn {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+  background-color: aliceblue;
+  color: dodgerblue;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: dodgerblue;
+  color: aliceblue;
+}
+
+#addRoutineButton {
+  width: 18%;
+}
+
+.list-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(132, 181, 235);
+  color: aliceblue;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  transition: all 0.4s;
+}
+
+.list-style:hover {
+  background-color: dodgerblue;
+}
+
+.success {
+  margin: 0.4rem 0;
+  padding: 0.4rem;
+  color: black;
+  background-color: #cdf1cd;
+  border-left: 5px solid #09a069;
+}
+
+.danger {
+  margin: 0.4rem 0;
+  padding: 0.4rem;
+  color: black;
+  background-color: #d18e8e;
+  border-left: 5px solid #a00909;
+}

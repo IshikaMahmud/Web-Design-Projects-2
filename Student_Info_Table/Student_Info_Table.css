@@ -1,0 +1,51 @@
+input {
+  width: 90%;
+  padding: 9px;
+}
+
+.main {
+  width: 45%;
+  margin-left: 29px;
+  float: left;
+}
+
+button {
+  background-color: dodgerblue;
+  padding: 9px 39px;
+  color: aliceblue;
+  font-size: 1.4rem;
+  box-shadow: 1px 2px 4px black;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+}
+
+table {
+  width: 90%;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  padding: 9px;
+  border: 1px solid rgb(3, 38, 73);
+  border-collapse: collapse;
+}
+
+h1 {
+  text-align: center;
+  background-color: dodgerblue;
+  color: aliceblue;
+  padding: 13px;
+}
+
+tr:nth-child(even) {
+  background-color: dodgerblue;
+  color: aliceblue;
+}
+
+tr:nth-child(odd) {
+  background-color: aliceblue;
+  color: dodgerblue;
+}

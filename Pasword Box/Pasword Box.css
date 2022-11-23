@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* real */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: dodgerblue;
+  color: aliceblue;
+}
+
+.password-box {
+  padding: 19px;
+  background-color: rgb(76, 158, 240);
+  box-shadow: 2px 4px 9px 1px rgba(0, 0, 0, 0.36);
+  font-size: 1.2rem;
+}
+
+#password {
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  padding: 9px;
+}

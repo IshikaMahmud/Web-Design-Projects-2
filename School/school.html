@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="school.css" />
+
+    <!-- bootstrap cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>School</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <header>
+        <!-- nav -->
+        <nav class="navbar navbar-expand-md">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span><i class="fas fa-bars nav-icon"></i></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img
+                src="images /I_Logo.jpg"
+                alt="I Logo"
+                height="50px"
+                width="50px"
+              />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-center text-md-left"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#about"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#tutorial"
+                    >Tutorials</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#feedback"
+                    >Feedback</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center text-md-left" href="#contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- banner -->
+        <section id="bnr">
+          <div
+            class="bnr-container d-flex justify-content-center align-items-center"
+          >
+            <div class="bnr-content text-center">
+              <h1 class="fw-bolder text-white mb-4">Increase Your Skills!!</h1>
+              <button class="btn btn-success me-2 btn-lg">
+                <i class="fas fa-book me-1"></i
+                ><a href="https://www.w3schools.com/html/" target="_blank"
+                  >Free HTML Tutorial</a
+                >
+              </button>
+              <button class="btn btn-success me-2 btn-lg">
+                <i class="fas fa-dollar me-1"></i
+                ><a
+                  href="https://www.udemy.com/course/1-hour-html/"
+                  target="_blank"
+                  >Paid HTML Tutorial</a
+                >
+              </button>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <!-- main -->
+      <main>
+        <!-- features -->
+        <section id="features" class="text-center">
+          <div class="sec-title">
+            <h2 class="text-center">Features</h2>
+            <hr class="hr" />
+            </div>
+          <div class="row">
+            <!-- card 1 -->
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="features-column">
+                <i
+                  class="fa-brands fa-free-code-camp fa-4x fea-icon rounded-circle"
+                ></i>
+                <h4><strong>Free Courses</strong></h4>
+                <p class="small">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cupiditate, aperiam ad eius deleniti maxime soluta mollitia
+                  nemo neque?
+                </p>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="features-column">
+                <i
+                  class="fa-solid fa-dollar-sign fa-4x fea-icon rounded-circle"
+                ></i>
+
+                <h4><strong>Paid Courses</strong></h4>
+                <p class="small">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cupiditate, aperiam ad eius deleniti maxime soluta mollitia
+                  nemo neque?
+                </p>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="col-lg-4 d-block d-lg-flex">
+              <div class="features-column">
+                <i
+                  class="fa-solid fa-sack-dollar fa-4x fea-icon rounded-circle"
+                ></i>
+
+                <h4><strong>Premium Courses</strong></h4>
+                <p class="small">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Cupiditate, aperiam ad eius deleniti maxime soluta mollitia
+                  nemo neque?
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- about -->
+        <section id="about">
+          <div class="sec-title">
+            <h2 class="text-center">About</h2>
+            <hr class="hr" />
+</div>
+
+            <!-- information -->
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="about-desc">
+                  <i
+                    class="fa-solid fa-users fa-4x fea-icon rounded-circle"
+                  ></i>
+                  <h4 class="fw-bolder">Information</h4>
+                  <p><span>Name :</span> IM</p>
+                  <p><span>Age :</span> 25</p>
+                  <p><span>Profession :</span> Front-End Developer</p>
+                  <p><span>Address :</span> BD</p>
+                  <button class="btn btn-primary btn-lg">CV</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- education -->
+            <div class="row">
+              <div class="col-lg-8"></div>
+              <div class="col-lg-4">
+                <div class="edu-desc text-center text-lg-left">
+                  <i
+                    class="fa-solid fa-book fa-4x fea-icon rounded-circle"
+                  ></i>
+                  <h4 class="fw-bolder">Education</h4>
+                  <p>AIUB</p>
+                  <p>Bsc. Computer Engineering</p>
+                  <p><span>CGPA :</span> 2.76</p>
+                  <p><span>Year :</span> 2016-2021</p>
+                  <p><span>Capstone Project :</span> Parking Automation & Management System.</p>
+                  <p>Publication on ResearchGate</p>
+                  <button class="btn btn-primary btn-lg">Publication</button>
+                </div>
+              </div>
+            </div>
+
+
+          <!-- skills -->
+<div class="row">
+  <div class="col-lg-4">
+    <div class="skill-desc">
+<i class="fas fa-certificate fa-4x rounded-circle fea-icon"></i>
+<h4 class="fw-bolder">Skills</h4>
+<table>
+  <tr>
+    <td>HTML</td>
+    <td>
+      <span class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+      </span>
+    </td>
+  </tr>
+  <tr>
+    <td>CSS</td>
+    <td>
+      <span class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="far fa-star"></i>
+
+      </span>
+    </td>
+  </tr>
+  <tr>
+    <td>BS</td>
+    <td>
+      <span class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half"></i>
+<i class="far fa-star"></i>
+      </span>
+    </td>
+  </tr>
+  <tr>
+    <td>JS</td>
+    <td>
+      <span class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star-half"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+      </span>
+    </td>
+  </tr>
+  <tr>
+    <td>Jquery</td>
+    <td>
+      <span class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+      </span>
+    </td>
+  </tr>
+</table>
+    </div>
+  </div>
+</div>
+        </section>
+
+        <!-- tutorials -->
+<section id="tutorial">
+  <div class="sec-title">
+    <h2 class="text-center">Tutorials</h2>
+    <hr class="hr" />
+    </div>
+    <!-- row1 -->
+    <div class="row">
+
+<!-- card1 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 d-block d-lg-flex d-md-flex">
+<div class="card m-2">
+  <img src="images /html5.jpg" alt="HTML Image" class="card-img-top">
+  <div class="card-body text-center">
+    <h2 class="card-title fw-bolder">HTML</h2>
+    <a href="https://www.w3schools.com/html/" target="_blank" class="stretched-link">HTML Tutorial</a>
+  </div>
+</div>
+</div>
+
+
+      <!-- card 2 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 d-block d-lg-flex d-md-flex">
+<div class="card m-2">
+  <img src="images /css3.jpg" alt="CSS Image" class="card-img-top">
+  <div class="card-body text-center">
+    <h2 class="card-title fw-bolder">CSS</h2>
+    <a href="https://www.w3schools.com/css/" target="_blank" class="stretched-link">CSS Tutorial</a>
+  </div>
+</div>
+</div>
+
+      <!-- card 3 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 d-block d-lg-flex d-md-flex">
+<div class="card m-2">
+  <img src="images /bs5.jpg" alt="Bootstrap Image" class="card-img-top">
+  <div class="card-body text-center">
+    <h2 class="card-title fw-bolder">BS</h2>
+    <a href="https://www.w3schools.com/bootstrap5/" target="_blank" class="stretched-link">BS5 Tutorial</a>
+  </div>
+</div>
+</div>
+
+      <!-- card 4 -->
+      <div class="col-sm-12 col-md-6 col-lg-3 d-block d-lg-flex d-md-flex">
+<div class="card m-2">
+  <img src="images /js_book.jpg" alt="Javascript Book Image" class="card-img-top">
+  <div class="card-body text-center">
+    <h2 class="card-title fw-bolder">JS</h2>
+    <a href="https://www.w3schools.com/js/" target="_blank" class="stretched-link">JS Tutorial</a>
+  </div>
+</div>
+      </div>
+    </div>
+
+<!-- row2 -->
+    <div class="row">
+
+      <!-- card1 -->
+            <div class="col-sm-12 col-md-6 col-lg-3 d-block d-lg-flex d-md-flex">
+      <div class="card m-2">
+        <img src="images /react js.jpg" alt="React JS Image" class="card-img-top">
+        <div class="card-body text-center">
+          <h2 class="card-title fw-bolder">React</h2>
+          <a href="https://www.w3schools.com/react/" target="_blank" class="stretched-link">React JS Tutorial</a>
+        </div>
+      </div>
+      </div>
+
+
+            <!-- card 2 -->
+            <div class="col-sm-12 col-md-6 col-lg-3 d-block d-lg-flex d-md-flex">
+      <div class="card m-2">
+        <img src="images /node js.jpg" alt="Node JS Image" class="card-img-top">
+        <div class="card-body text-center">
+          <h2 class="card-title fw-bolder">Node</h2>
+          <a href="https://www.w3schools.com/nodejs/" target="_blank" class="stretched-link">Node JS Tutorial</a>
+        </div>
+      </div>
+      </div>
+
+            <!-- card 3 -->
+            <div class="col-sm-12 col-md-6 col-lg-3 d-block d-lg-flex d-md-flex">
+      <div class="card m-2">
+        <img src="images /express js.jpg" alt="Express JS Image" class="card-img-top">
+        <div class="card-body text-center">
+          <h2 class="card-title fw-bolder">Express JS</h2>
+          <a href="https://www.tutorialspoint.com/expressjs/index.htm" target="_blank" class="stretched-link">Express JS Tutorial</a>
+        </div>
+      </div>
+      </div>
+
+            <!-- card 4 -->
+            <div class="col-sm-12 col-md-6 col-lg-3 d-block d-lg-flex d-md-flex">
+      <div class="card m-2">
+        <img src="images /mongodb.jpg" alt="MongoDB Image" class="card-img-top">
+        <div class="card-body text-center">
+          <h2 class="card-title fw-bolder">MongoDB</h2>
+          <a href="https://www.tutorialspoint.com/mongodb/index.htm" target="_blank" class="stretched-link">MongoDB Tutorial</a>
+        </div>
+      </div>
+            </div>
+          </div>
+</section>
+
+<!-- feedback -->
+<section id="feedback">
+  <div class="sec-title">
+    <h2 class="text-center text-white">Feedback</h2>
+    <hr class="hr2">
+    </div>
+
+    <div class="row">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active text-white">
+<p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore omnis quod voluptatibus provident nulla officia aspernatur est doloribus aliquid praesentium.</p>
+<img src="images /html5.jpg" alt="HTML Image" class="rounded-circle fb-img"><br><br>
+<h5>HTML</h5>
+        </div>
+        <div class="carousel-item text-white">
+          <p>2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore omnis quod voluptatibus provident nulla officia aspernatur est doloribus aliquid praesentium.</p>
+          <img src="images /css3.jpg" alt="CSS Image" class="rounded-circle fb-img"><br><br>
+          <h5>CSS</h5>
+
+        </div>
+        <div class="carousel-item text-white">
+          <p>3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore omnis quod voluptatibus provident nulla officia aspernatur est doloribus aliquid praesentium.</p>
+          <img src="images /js_book.jpg" alt="JS Book Image" class="rounded-circle fb-img"><br><br>
+          <h5>JS</h5>
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+
+</section>
+
+<!-- contact -->
+<section id="contact">
+  <div class="sec-title">
+    <h2 class="text-center">Contact</h2>
+    <hr class="hr">
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <form action="mailto:ishikamahmud19@gmail.com" method="post" enctype="text/plain" class="was-validated">
+<div class="form-group">
+  <label for="name">Name : </label>
+  <input type="text" name="name" id="name" class="form-control" required>
+  <div class="valid-feedback">Valid</div>
+  <div class="invalid-feedback">Invalid</div>
+</div>
+
+<div class="form-group">
+  <label for="email">Email : </label>
+  <input type="email" name="email" id="email" class="form-control">
+
+</div><br>
+
+<div class="form-group">
+  <label for="msg">Message : </label>
+<textarea name="msg" id="msg" cols="29" rows="3" class="form-control" style="resize:none;"></textarea>
+
+</div><br>
+
+<div class="form-group text-center">
+  <input type="submit" name="" id="" class="btn btn-success me-2 btn-lg" value="Send">
+  <input type="reset" name="" id="" class="btn btn-success me-2 btn-lg" value="Clear">
+</div>
+
+        </form>
+      </div>
+    </div>
+      </main>
+
+      <!-- footer -->
+      <footer>
+        <div class="row text-white">
+          <div class="col-lg-6 text-center text-lg-left mb-2">
+            <p class="small mb-0 mt-1">Developed By &copy; IM</p>
+          </div>
+          <div class="col-lg-6 text-center text-lg-right">
+            <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+            <a href="https://www.youtube.com" target="_blank"
+                ><i class="icon fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://www.facebook.com" target="_blank"
+                ><i class="icon fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com" target="_blank"
+                ><i class="icon fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com" target="_blank"
+                ><i class="icon fa-brands fa-linkedin"></i
+              ></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- <bottstrap bundle cdn -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

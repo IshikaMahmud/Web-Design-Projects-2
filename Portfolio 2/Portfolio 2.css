@@ -1,0 +1,485 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  top: 0;
+  background-color: aliceblue;
+  z-index: 1;
+}
+
+header div {
+  float: left;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  margin-left: 19px;
+  margin-bottom: 4px;
+  padding: 9px;
+}
+
+header .nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 199px;
+}
+
+header .nav ul {
+  list-style: none;
+}
+
+header .nav ul li {
+  float: left;
+  padding-right: 39px;
+  padding-top: 9px;
+}
+
+header .nav ul li a {
+  text-decoration: none;
+  color: rgb(40, 40, 40);
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+header .nav ul li a:hover {
+  color: dodgerblue;
+}
+
+/* section 1 */
+
+.section1 {
+  background-color: #ececfc;
+  width: 100%;
+  height: 664px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 74px;
+}
+
+.half1 .half2 {
+  width: 50%;
+}
+
+.half1 {
+  margin-left: 229px;
+  margin-bottom: 119px;
+}
+
+.half2 {
+  padding-right: 159px;
+  margin-top: 49px;
+}
+
+.half2 img {
+  width: 240px;
+  height: 400px;
+}
+
+.half1 h4 {
+  font-weight: normal;
+}
+
+.half1 h1 {
+  font-size: 59px;
+}
+
+.half1 p {
+  color: rgba(100, 173, 247, 0.8);
+}
+
+.half1 input {
+  padding: 7px 19px;
+  background-color: dodgerblue;
+  outline: none;
+  color: aliceblue;
+  border: 1px solid dodgerblue;
+  font-size: 14px;
+}
+
+.half1 input:hover {
+  box-shadow: 4px 9px 29px rgba(35, 140, 245, 0.4);
+  transition: all 0.4s ease-in 0.2s;
+  outline: none;
+}
+
+/* section 2 */
+
+.section2 {
+  width: 100%;
+  height: 619px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 div {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.section2 img {
+  width: 240px;
+  height: 400px;
+}
+
+.section2 .img1 {
+  padding-left: 149px;
+}
+
+.text1 h4 {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+
+.text1 h1 {
+  font-weight: bold;
+  font-size: 39px;
+}
+
+.text1 p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+}
+
+.text1 input {
+  font-size: 19px;
+  padding: 11px 15px;
+  outline: none;
+  color: aliceblue;
+  background-color: dodgerblue;
+  border: none;
+}
+
+.text1 input:hover {
+  box-shadow: 4px 9px 29px rgba(35, 140, 245, 0.4);
+  transition: all 0.4s ease-in 0.2s;
+  outline: none;
+}
+
+/* section 3 */
+
+.section3 {
+  width: 100%;
+  height: 649px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text2 h1 {
+  font-size: 39px;
+}
+
+.text2 p {
+  width: 669px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.skills {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 44px;
+}
+
+.skillSection1,
+.skillSection2 {
+  width: 100%;
+  overflow: hidden;
+}
+
+.skillSection2 {
+  padding-top: 29px;
+}
+
+.skillSection1 div,
+.skillSection2 div {
+  width: 32%;
+  float: left;
+  padding: 4px;
+  margin: 0 auto;
+}
+
+.skills i {
+  font-size: 44px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.skills h2 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.skills p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.skillSection1 div:hover {
+  background-color: dodgerblue;
+}
+
+.skillSection1 div:hover i {
+  color: aliceblue;
+}
+
+.skillSection1 div:hover h2 {
+  color: aliceblue;
+}
+
+.skillSection1 div:hover p {
+  color: aliceblue;
+}
+
+.skillSection2 div:hover {
+  background-color: dodgerblue;
+}
+
+.skillSection2 div:hover i {
+  color: aliceblue;
+}
+
+.skillSection2 div:hover h2 {
+  color: aliceblue;
+}
+
+.skillSection2 div:hover p {
+  color: aliceblue;
+}
+
+/* section4 */
+
+.section4 {
+  width: 100%;
+  height: 209px;
+  background-color: dodgerblue;
+}
+
+.section4 div {
+  float: left;
+  width: 20%;
+  margin: 0 auto;
+  position: relative;
+  top: 99px;
+  left: 109px;
+}
+
+.section4 h2,
+p {
+  text-align: center;
+  color: aliceblue;
+}
+
+.section4 h2 {
+  font-size: 44px;
+}
+
+.section4 p {
+  font-size: 24px;
+}
+
+/* section5 */
+
+.section5 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.section5 .text3 {
+  text-align: center;
+  padding: 99px 0;
+}
+
+.section5 .text3 h1 {
+  font-size: 39px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.section5 .text3 p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 2px;
+  margin-bottom: 29px;
+}
+
+.section5 .imgs {
+  width: 75%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.section5 .imgs div {
+  width: 340px;
+  height: 338px;
+  padding-bottom: 39px;
+  text-align: center;
+}
+
+.section5 .imgs h2 {
+  font-size: 19px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.section5 figure {
+  background: linear-gradient(40deg, dodgerblue, aliceblue 100%);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 2%;
+}
+
+.section5 figure:hover img {
+  opacity: 0.2;
+  transition: all 0.2s ease-in-out;
+}
+
+/* section6 */
+
+.section6 {
+  width: 100%;
+  height: 699px;
+  padding-top: 16px;
+}
+
+.section6 .text4 {
+  text-align: center;
+  padding: 1% 0;
+}
+
+.section6 .text4 h1 {
+  font-size: 39px;
+  line-height: 1.6;
+  padding-top: 14px;
+}
+
+.section6 .text4 p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.section6 .card {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.section6 .card1 {
+  width: 299px;
+  height: 399px;
+  background-color: rgb(236, 236, 252);
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  margin-top: 16px;
+}
+
+.section6 .card1 h2 {
+  font-size: 39px;
+  padding-top: 7px;
+}
+
+.section6 .card1 p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.section6 .card1 .p-card {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section6 .card1 input {
+  outline: none;
+  background-color: dodgerblue;
+  color: aliceblue;
+  font-size: 24px;
+  padding: 5px 59px;
+  font-weight: bold;
+  border: 1px solid aliceblue;
+  cursor: pointer;
+}
+
+.section6 .card1:hover {
+  background-color: dodgerblue;
+  color: aliceblue;
+  transition: all 0.3s ease-in;
+  transform: scale(1.1);
+  border: 1px solid rgba(129, 146, 254, 0.4);
+  box-shadow: 0 7px 11px 0 rgba(0, 0, 0, 0.4);
+}
+
+.section6 .card1:hover p {
+  color: aliceblue;
+}
+
+.section6 .card1:hover input {
+  color: #000;
+  background-color: aliceblue;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(5, 10, 31);
+  color: aliceblue;
+  width: 100%;
+  height: 279px;
+  position: absolute;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 119px;
+  width: 80%;
+  height: auto;
+}
+
+footer .footer .footer1 p {
+  color: rgba(254, 254, 254, 0.4);
+}
+
+footer .footer .footer1 input {
+  font-size: 14px;
+  outline: none;
+  border: none;
+  padding: 9px 149px 9px 9px;
+}
+
+footer .footer .footer1 button {
+  font-size: 17px;
+  color: aliceblue;
+  background-color: dodgerblue;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 7px 14px;
+}
+
+footer .footer .footer1 i {
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 1px 4px;
+}
+
+footer .footer .footer1 i:hover {
+  color: dodgerblue;
+}
